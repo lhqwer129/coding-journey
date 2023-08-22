@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 /**
- * description:
+ * description: IncrRateLimiter
  *
  * @author lihui
  * @create 2023-08-17 20:58
