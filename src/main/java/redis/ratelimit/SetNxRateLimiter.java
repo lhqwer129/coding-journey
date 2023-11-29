@@ -37,7 +37,7 @@ public class SetNxRateLimiter {
         long count = jedis.decr(key);
         return count > 0;
     }
-
+    
     public static void main(String[] args) {
 
         IntStream.range(1, 100)
